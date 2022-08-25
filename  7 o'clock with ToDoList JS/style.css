@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30%;
+}
+.timeWithDate{
+    margin-bottom: 50px;
+    height: 90px; 
+}
+.time{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.dates{
+    font-size: 25px;
+}
+.input{
+    margin-top: 30px;
+    width: 250px;
+    height: 70px;
+    font-size: 1.5rem;
+}
+.btn{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;    
+}
+
+.paragrafLine{
+    padding-right: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
